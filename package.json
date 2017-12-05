@@ -1,0 +1,29 @@
+{
+    "name": "application-name",
+    "description": "HTTP API configurator",
+    "author": "Fabio Ricci",
+    "license": "MIT",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fraibcicoi/buildoProject"
+    },
+    "scripts": {
+        "start": "SET NODE_ENV=dev&& node server.js",
+        "test": "mocha --timeout 10000"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "lokijs": "^1.5.1",
+        "systemjs": "0.20.19",
+        "core-js": "^2.5.1",
+        "zone.js": "^0.8.18",
+        "config": "^1.28.1"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "chai-http": "^3.0.0",
+        "mocha": "^4.0.1"
+    }
+}
